@@ -3,6 +3,13 @@ main:
     url: /
   - title: "Databasing"
     url: /databasing/
-    url: /databasing/data entry/
-    url: /databasing/entomology labels/
-    url: /databsing/column key/
+
+databasing:
+  - title: "Databasing"
+    children:
+      - title: "Data entry"
+        url: /databasing/data-entry/
+      - title: "Entomology labels"
+        url: /databasing/entomology-labels/
+      - title: "Column key"
+        url: /databasing/column-key/
