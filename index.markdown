@@ -5,6 +5,7 @@ permalink: /
 author_profile: true
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Welcome to the CMNEN's homepage! This site contains documentation about digitization protocols and processes specific to the Entomology collection (CMNEN) at the Canadian Museum of Nature (CMN). To get started, click on one of the options on the ribbon of the website. For most students/volunteers new to the collection, getting started typically involves getting familiar with our databasing protocols which can be accessed under "Databasing". 
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+
