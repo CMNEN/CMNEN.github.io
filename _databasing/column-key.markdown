@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "column key"
+title:  "Column key"
 sidebar:
   nav: databasing
 date:   2026-02-24
@@ -10,6 +10,6 @@ The colourful, flat Excel sheet we use to database specimens consists of several
 
 | Column name | Explanation |
 |--------------|------------|
-| **LACMIP loc#.lot#** | Reserved for the **catalog number**, which represents a combination of two numbers: a **locality number** and **lot number**. For example, “LACMIP 2533.1” translates to the 1st lot cataloged from LACMIP locality 2533. The lot number is the only thing written on the tag during cataloging. |
-| **Alt #** | Reserved for catalog numbers previously assigned to the specimen lot by another institution (e.g., “UCLA 53347”). |
-| **Count** | Reserved for the number of individual specimens in the lot to which a given identification applies (e.g., “3” if 3 *Turritella* snails are identified). |
+| **Catalogue_ID** | The unique catalogue ID assigned to each specimen. When databasing, this number must match the catalogue number printed on the catalogue label that will be applied to the specimen. The catalogue ID consists of our collection code (CMNEN) and a unique catalogue number (e.g. 00085495). This ID allows us to locate individual specimen records and ensures that all associated information is correctly tied to that specimen. Note that you must put a single space in between teh colelction code and the catalogue number(e.g. CMNEN 00034151).|
+| **Other_catNumber** | Any combination of letters or numbers that constitutes an additional identifying code associated with the specimen. For example, a specimen that has been sequenced for its mitochondrial barcode will often have the corresponding BOLD process ID on its label (e.g., MPCAN1899-19).|
+| **Other_catNumber_type** |A description of the additional catalogue number entered in “Other_catNumber.” Having background information on how the specimen was collected and who collected it can often be very helpful when completing this field.|
