@@ -24,8 +24,8 @@ One key principle of databasing is that we do not want to lose any information p
 | **Prev_scientific_name** | As with "Prev_family_name" but for the previously assigned scientific name of the specimen. |
 | **Determiner** | The name of the determiner. First abbrevation. Second abbreviation. Last name written out in full. |
 | **Prev_determiner** | The name of the previous determiner in the previous. The same name format of the determiner. |
-| **Type_status** | Type status if applicable (e.g. "Paratype") |
-| **Det_date** | Date when the specimen was identified |
-| **Prev_det_date** | If there is more than one name given to the specimen, enter the date when the specimen was previously identified |
+| **Type_status** | Type status if applicable (e.g. "Paratype"). |
+| **Det_date** | Date when the specimen was identified. |
+| **Prev_det_date** | If there is more than one name given to the specimen, enter the date when the specimen was previously identified. |
 | **Name_notes** | Any notes related to the determination of the specimen. |
 | **Prev_name_notes** | Any notes related to the previous determination of the specimen. |
