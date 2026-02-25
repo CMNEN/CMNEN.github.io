@@ -18,6 +18,6 @@ MANTIS is a custom application developed by Piotr Naskreck and built with the Fi
 
 EMu is a collections management system powered by Axiell that has been adopted by the Canadian Museum of Nature. Records in EMu can be accessed by anyone with appropriate access rights to the CMN database. Selected records are also published to online biodiversity platforms such as GBIF, and updates made within EMu are reflected in those public databases. This is particularly important, as it ensures that our specimen data is mobilized for research and contributes to the coverage of global biodiversity information that can help us better understand and steward the the world we live in. Because creating individual records directly in EMu can be time-consuming, databasing at scale is conducted in Excel spreadsheets and converted via data-wrangling scripts for batch import into EMu.
 
-![Image of Excel template](/assets/images/excel.PNG)
+![Image of Excel template](/assets/images/excel.png)
 
 Reach out to your supervisor to ask how databasing will be done with the project that you are working on!
