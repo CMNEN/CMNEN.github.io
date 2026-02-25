@@ -13,3 +13,5 @@ databasing:
         url: /databasing/entomology-labels/
       - title: "Column key"
         url: /databasing/column-key/
+      - title: "Scripts"
+        url: /databasing/scripts/

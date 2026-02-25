@@ -5,10 +5,11 @@ sidebar:
   nav: databasing
 date:   2026-02-24
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+The colourful, flat Excel sheet we use to database specimens consists of several columns. Make sure you understand what each column means before you begin entering data.
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+| Column name | Explanation |
+|--------------|------------|
+| **LACMIP loc#.lot#** | Reserved for the **catalog number**, which represents a combination of two numbers: a **locality number** and **lot number**. For example, “LACMIP 2533.1” translates to the 1st lot cataloged from LACMIP locality 2533. The lot number is the only thing written on the tag during cataloging. |
+| **Alt #** | Reserved for catalog numbers previously assigned to the specimen lot by another institution (e.g., “UCLA 53347”). |
+| **Count** | Reserved for the number of individual specimens in the lot to which a given identification applies (e.g., “3” if 3 *Turritella* snails are identified). |
