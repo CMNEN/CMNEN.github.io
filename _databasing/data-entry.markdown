@@ -1,14 +1,15 @@
 ---
 layout: single
-title:  "data entry"
+title:  "Data entry"
 sidebar:
   nav: databasing
 date:   2026-02-24
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+The CMNEN collection conducts databasing in two separate ways: first through the databasing software MANTIS, and second through Excel templates designed to be compatible with the EMu database.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+MANTIS is a custom application built with the FileMaker Pro software developed by Piotr Naskreck. MANTIS (as a databasing tool and as a database in itself) is currently only accessibly through the Entomology Data Entry Station in the Documentation Room by the Dry Invertebrate Collection room and (as such) can only be worked with by one person at a time. For more information on how to work with MANTIS, see the document "How to use MANTIS" that can be accessed on the R&C SharePoint.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+EMu is a collections management system powered by Axiell that has been adopted by the Canadian Museum of Nature. Records in EMu can be accessed by anyone with appropriate access rights to the CMN database. Selected records are also published to online biodiversity platforms such as GBIF, and updates made within EMu are reflected in those public data feeds. This is particularly important, as it ensures that our collections data are mobilized for research, contributing to broader efforts to improve the quality and coverage of global biodiversity information and to better understand and steward the natural world. Creating individual records directly in EMu can be time-consuming, large-scale databasing projects are prepared in Excel spreadsheets that are subsequently converted via an data-wrangling scripts into a format suitable for batch import into EMu.
+
+Reach out to your Supervisor to ask how databasing will be done with the project that you are working on!
