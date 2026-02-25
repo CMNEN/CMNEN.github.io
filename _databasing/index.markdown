@@ -6,6 +6,5 @@ sidebar:
   nav: "databasing"
 date:   2026-02-24
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Databasing is the starting point of any digitization project in the CMNEN collection. The creation of accurate digital records helps us to better manage the collection magement and increases access to specimen data for crucial research on biodiversity. Over the past decade, the CMNEN has used several different databases to enter and manage specimen records, most recently MANTIS and presently EMu. As we continue to refine our workflows for digitization at scale, there will inevitably be challenges along the way. Use the side menu to get started with databasing. 
