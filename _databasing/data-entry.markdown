@@ -10,7 +10,7 @@ The CMNEN collection conducts databasing in two separate ways: first through the
 
 ## Mantis
 
-MANTIS is a custom application built with the FileMaker Pro software developed by Piotr Naskreck. MANTIS (as a databasing tool and as a database in itself) is currently only accessibly through the Entomology Data Entry Station in the Documentation Room by the Dry Invertebrate Collection room and (as such) can only be worked with by one person at a time. For more information on how to work with MANTIS, see the document "How to use MANTIS" that can be accessed on the R&C SharePoint.
+MANTIS is a custom application developed by Piotr Naskreck and built with the FileMaker Pro software. MANTIS (as a databasing tool and as a database in itself) is currently only accessibly through the Entomology Data Entry Station in the Documentation Room by the Dry Invertebrate Collection room and (as such) can only be worked on by one person at a time. For more information on how to work with MANTIS, see the document "How to use MANTIS" that can be accessed on the R&C SharePoint.
 
 ## EMu batch imports
 
