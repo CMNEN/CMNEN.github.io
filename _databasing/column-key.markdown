@@ -8,7 +8,7 @@ date:   2026-02-24
 
 The Excel template used for specimen databasing contains several columns and is structured to be processed by a script that converts the data into batch-import-ready CSV files for EMu. Before entering any data, ensure that you understand what each column represents. In the spreadsheet itself (and broadly speaking), yellow columns are used to create Catalogue records in EMu, blue columns are used to create Site records, green columns are used to create Taxonomy records, and purple columns are used to create Collection Event records. Below is a quick guide to each column in the Excel sheet. Columns marked with an asterisk (*) must be completed for every record. All other fields must be filled in whenever the information is available on the specimen label.
 
-One key principle of databasing is that we do not want to lose any information present on a specimen label. Omitting data that appears on the label can result in an incomplete or inaccurate record. When in doubt about where a piece of information should be entered, please feel free to ask one (or both) of your supervisors!
+During databasing, it is important to capture all information present on the specimen label as accurately as possible. Omitting data that appears on the label can result in an incomplete or inaccurate record. When in doubt about where a piece of information should be entered, please feel free to ask one (or both) of your supervisors!
 
 | Column name | Explanation |
 |--------------|------------|
@@ -32,7 +32,7 @@ One key principle of databasing is that we do not want to lose any information p
 | **Prev_name_notes** | Any notes related to the previous determination of the specimen. |
 | **Count** | Number of specimens. This is typically 1. |
 | **Sex** | Sex of the specimen. Only enter this if the specimen has been sexed. This is typically shown on the specimen label with the standard sex symbols: male = ♂, female = ♀. |
-| **Specimen_nature** | "Pinned", "Pointed", "Staged", "Card mounted". |
+| **Specimen_nature** | "Pinned", "Pointed", "Staged", or "Card mounted". |
 | **Country**\* | Country of collection locality. |
 | **Province_State** | Province/State of collection locality (e.g. "Ontario", "Arizona", etc.) |
 | **County_Region** | County/Region of collection locality (e.g. "Lanark County"). |
