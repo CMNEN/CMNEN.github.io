@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "entomology labels"
+title:  "Entomology labels"
 sidebar:
   nav: databasing
 date:   2026-02-24
