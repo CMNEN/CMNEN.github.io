@@ -8,8 +8,8 @@ author_profile: true
 Welcome to the CMNEN's homepage! This site contains documentation about digitization protocols and processes specific to the entomology collection (CMNEN) at the Canadian Museum of Nature (CMN). To get started, click on one of the options on the ribbon of the website. For most students/volunteers new to the collection, getting started typically involves getting familiar with our databasing protocols which can be accessed under "Databasing".
 
 <figure class="align-center">
-  <img src="/assets/buprestids.jpg" alt="Insect drawer showing Australasian specimens from the family Buprestidae">
-  <figcaption style="font-family: inherit; font-size: 0.9em; color: #555;">
-    Drawer ofAustralasian Buprestidae. Photo credits: Bee Benton and Laura Johnston.
+  <img src="/assets/buprest.jpg" alt="Insect drawer showing Australasian specimens from the family Buprestidae">
+  <figcaption style="font-family: inherit; font-size: 0.75em; color: #555;">
+    Drawer of Australasian Buprestidae. Photo credits: Bee Benton and Laura Johnston.
   </figcaption>
 </figure>
