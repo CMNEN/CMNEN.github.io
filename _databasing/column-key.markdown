@@ -8,7 +8,7 @@ date:   2026-02-24
 
 The Excel template used for specimen databasing contains several columns and is structured to be processed by an R script that converts the data into batch-import-ready CSV files for EMu. Before entering any data, ensure that you understand what each column represents. In the spreadsheet itself (and broadly speaking), yellow columns are used to create Catalogue records in EMu, blue columns are used to create Site records, green columns are used to create Taxonomy records, and purple columns are used to create Collection Event records. Below is a quick guide to each column in the Excel sheet. Columns marked with an asterisk (*) must be completed for every record. All other fields must be filled in whenever the information is present.
 
-During databasing, it is important to capture all information present on specimen labela as accurately as possible. Omitting data that appears on the label can result in an incomplete or inaccurate record. When in doubt about where a piece of information should be entered, please feel free to ask one (or both) of your supervisors!
+During databasing, it is important to capture all information present on labels as accurately as possible. Omitting data that appears on the label can result in an incomplete or inaccurate record. When in doubt about where a piece of information should be entered, please feel free to ask one (or both) of your supervisors!
 
 | Column name | Explanation |
 |--------------|------------|
