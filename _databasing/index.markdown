@@ -11,4 +11,4 @@ Databasing is the starting point of any digitization project in the CMNEN collec
 
 Use the side menu to get started with databasing.
 
-![Image of misc. scarabs](/assets/data-landing.png)
+![Image of misc. scarabs](/assets/data-landing.jpg)
