@@ -3,6 +3,10 @@ layout: single
 title:  "Data entry"
 sidebar:
   nav: databasing
+toc: true
+toc_label: "On this page"
+toc_icon: "file-text"
+toc_sticky: tru
 date:   2026-02-24
 ---
 
