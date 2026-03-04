@@ -3,6 +3,10 @@ main:
     url: /
   - title: "Databasing"
     url: /databasing/
+  - title: ""
+    url: //
+  - title: "Resources"
+    url: /resources/
 
 databasing:
   - title: "Databasing"
