@@ -28,26 +28,44 @@ For Taxonomy records, the process is slightly more complex. Scientific names in 
 
 For Site records, matching is based on a combination of locality descriptors and coordinate data. All relevant fields are pulled out from the data entry sheet and site records are classified based on the type of coordinate information present (decimal or DMS; point or range). All records are then matched against existing EMu Site records by comparing corresponding field values (see Table 1). Where a match is found, the corresponding Site IRN is assigned. Records that do not match existing Sites are separated out and piped into an import sheet. The fields “Country”, “Province/State”, and “County/Region” are used to populated the locality hierarchy table in the EMu Site record.
 
-Table 1. Column-to-field mapping used to match data entry records to existing EMu Site records.
 
-| Column name |  | Field name | Notes |
+
+**Table 1**. Column-to-field mapping used to match data entry records to existing EMu Site records.
+
+| Column name | Field name | Notes |
 |--------------|------------|------------|
 | Location | LocPreciseLocation | |
-| Lat | LatLatitude_nesttab(1:1) | Matched/populated when values are given in DMS |
-| Lon | LonLongitude_nesttab(1:1) | Matched/populated  when values are given in DMS |
-| Lat2 | LatLatitude_nesttab(1:2) | Matched/populated  when values are given in DMS |
-| Lat2 | LonLongitude_nesttab(1:2) | Matched/opulated  when values are given in DMS |
-| Lat | LatLatitudeDecimal_nesttab(1:1) | Matched/opulated  when values are given in decimals |
-| Lon | LonLongitudeDecimal_nesttab(1:1) | Matched/populated  when values are given in decimals |
-| Lat2 | LatLatitudeDecimal_nesttab(1:2) | Matched/populated  when values are given in decimals |
-| Lat2 | LonLongitudeDecimal_nesttab(1:2) | Matched/opulated  when values are given in decimals |
+| Lat | LatLatitude_nesttab(1:1) | Matched when values are given in DMS |
+| Lon | LonLongitude_nesttab(1:1) | Matched when values are given in DMS |
+| Lat2 | LatLatitude_nesttab(1:2) | Matched when values are given in DMS |
+| Lat2 | LonLongitude_nesttab(1:2) | Matched when values are given in DMS |
+| Lat | LatLatitudeDecimal_nesttab(1:1) | Matched when values are given in decimals |
+| Lon | LonLongitudeDecimal_nesttab(1:1) | Matched when values are given in decimals |
+| Lat2 | LatLatitudeDecimal_nesttab(1:2) | Matched when values are given in decimals |
+| Lat2 | LonLongitudeDecimal_nesttab(1:2) | Matched when values are given in decimals |
 | Habitat | HabTerrestrialHabitat | |
-| Elevation_m | LocElevationASLFromMt |
-| Elevation_ft | LocElevationASLFromFt |
-| Locality_notes | NotNotes |
+| Elevation_m | LocElevationASLFromMt | |
+| Elevation_ft | LocElevationASLFromFt | |
+| Locality_notes | NotNotes | |
+
+Collection Event records are handled in a very similar way (data are extracted, matched against existing EMu Collection Event records, and non-matches are piped into an import sheet), with the main difference being that collector IRNs are also included in the matching process as that is an import part of a Collection Event record (e.g. Who conducted the collecting?)
+
+**Table 2**. Column-to-field mapping used to match data entry records to existing EMu Collection Event records.
+
+| Column name | Field name | Notes |
+|--------------|------------|------------|
+| Collector | ColParticipantRef_tab(1).irn | |
+| Collector2 | ColParticipantRef_tab(2).irn | |
+| Collector3 | ColParticipantRef_tab(3).irn | |
+| Collector4 | ColParticipantRef_tab(4).irn | |
+| Coll_date | ColDateVisitedFrom | |
+| Coll_date_to | ColDateVisitedTo | |
+| Coll_date_verbatim | ColVerbatimDate | |
+| Coll_time | ColTimeVisitedFrom | |
+| Coll_time_to | ColTimeVisitedTo | |
+| Event_notes | NotNotes | |
 
 
 ## Catalogue 
 
-
-
+Work in Progress
