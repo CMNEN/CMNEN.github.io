@@ -33,7 +33,7 @@ This determination label shows that the specimen associated with it was identifi
   </figcaption>
 </figure>
 
-Ideally, every specimen would have its own determination label, but this is not always the case. In many instances, only the first specimen in a series (i.e. a group of specimens collected at the same time and place) holds a determination label that is understood to apply to the remaining specimens in the series (see image above). If you see this in the collection, make sure the series stays together and that the original order of specimens in the unit tray is maintained.
+Ideally, every specimen would have its own determination label, but this is not always the case. In many instances, only the first specimen in a series (i.e. a group of specimens collected at the same time and place) holds a determination label that is understood to apply to the remaining specimens in the series (see image above). If you see this in the collection, **make sure the series stays together and that the original order of specimens in the unit tray is maintained**.
 
 ## Catalogue labels
 
