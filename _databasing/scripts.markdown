@@ -24,11 +24,9 @@ For Parties, this is done by simply taking the values from the columns "Determin
 
 For Taxonomy records, the process is slightly more complex. Scientific names in the columns "Species_name" and "Prev_species_name" are checked against an EMu report for all existing taxonomy records. Values that do not match an existing name are piped into an import sheet as with new Party records. For unmatched species names, the genus (i.e. the first term in the binomial name) is also checked against existing taxonomy records. If the genus does not already exist in EMu, it is added to the import sheet so that the appropriate RanParentRef.irn can be populated when its associated new species record is created.
 
-## Sites and Collection Events
+## Sites
 
 For Site records, matching is based on a combination of locality descriptors and coordinate data. All relevant fields are pulled out from the data entry sheet and site records are classified based on the type of coordinate information present (decimal or DMS; point or range). All records are then matched against existing EMu Site records by comparing corresponding field values (see Table 1). Where a match is found, the corresponding Site IRN is assigned. Records that do not match existing Sites are separated out and piped into an import sheet. The fields “Country”, “Province/State”, and “County/Region” are used to populated the locality hierarchy table in the EMu Site record.
-
-
 
 **Table 1**. Column-to-field mapping used to match data entry records to existing EMu Site records.
 
@@ -47,6 +45,8 @@ For Site records, matching is based on a combination of locality descriptors and
 | Elevation_m | LocElevationASLFromMt | |
 | Elevation_ft | LocElevationASLFromFt | |
 | Locality_notes | NotNotes | |
+
+## Collection Events
 
 Collection Event records are handled in a very similar way (data are extracted, matched against existing EMu Collection Event records, and non-matches are piped into an import sheet), with the main difference being that collector IRNs are also included in the matching process as that is an import part of a Collection Event record (e.g. Who conducted the collecting?)
 
