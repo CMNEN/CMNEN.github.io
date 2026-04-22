@@ -29,6 +29,7 @@ For Taxonomy records, the process is slightly more complex. Scientific names in 
 For Site records, matching is based on a combination of locality descriptors and coordinate data. All relevant fields are pulled out from the data entry sheet and site records are classified based on the type of coordinate information present (decimal or DMS; point or range). All records are then matched against existing EMu Site records by comparing corresponding field values (see Table 1). Where a match is found, the corresponding Site IRN is assigned. Records that do not match existing Sites are separated out and piped into an import sheet. The fields “Country”, “Province/State”, and “County/Region” are used to populated the locality hierarchy table in the EMu Site record.
 
 Table 1. Column-to-field mapping used to match data entry records to existing EMu Site records.
+
 | Column name |  | Field name | Notes |
 |--------------|------------|------------|
 | Location | LocPreciseLocation | |
