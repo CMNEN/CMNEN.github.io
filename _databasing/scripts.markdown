@@ -26,8 +26,24 @@ For Taxonomy records, the process is slightly more complex. Scientific names in 
 
 ## Sites and Collection Events
 
-For Site records, matching is based on a combination of locality descriptors and coordinate data. All relevant fields are pulled out from the data entry sheet and site records are classified based on the type of coordinate information present (decimal or DMS; point or range). All records are then checked against existing EMu Site records using the appropriate combination of fields for each case. Where a match is found, the corresponding Site IRN is assigned. Records that do not match existing Sites are separated out and piped into an import sheet, with additional processing to populate the locality hierarchy table (e.g., "Country", "Province/State", and "County/Region") in EMu.
+For Site records, matching is based on a combination of locality descriptors and coordinate data. All relevant fields are pulled out from the data entry sheet and site records are classified based on the type of coordinate information present (decimal or DMS; point or range). All records are then matched against existing EMu Site records by comparing corresponding field values (see Table 1). Where a match is found, the corresponding Site IRN is assigned. Records that do not match existing Sites are separated out and piped into an import sheet. The fields “Country”, “Province/State”, and “County/Region” are used to populated the locality hierarchy table in the EMu Site record.
 
+Table 1. Column-to-field mapping used to match data entry records to existing EMu Site records.
+| Column name |  | Field name | Notes |
+|--------------|------------|------------|
+| Location | LocPreciseLocation | |
+| Lat | LatLatitude_nesttab(1:1) | Matched/populated when values are given in DMS |
+| Lon | LonLongitude_nesttab(1:1) | Matched/populated  when values are given in DMS |
+| Lat2 | LatLatitude_nesttab(1:2) | Matched/populated  when values are given in DMS |
+| Lat2 | LonLongitude_nesttab(1:2) | Matched/opulated  when values are given in DMS |
+| Lat | LatLatitudeDecimal_nesttab(1:1) | Matched/opulated  when values are given in decimals |
+| Lon | LonLongitudeDecimal_nesttab(1:1) | Matched/populated  when values are given in decimals |
+| Lat2 | LatLatitudeDecimal_nesttab(1:2) | Matched/populated  when values are given in decimals |
+| Lat2 | LonLongitudeDecimal_nesttab(1:2) | Matched/opulated  when values are given in decimals |
+| Habitat | HabTerrestrialHabitat | |
+| Elevation_m | LocElevationASLFromMt |
+| Elevation_ft | LocElevationASLFromFt |
+| Locality_notes | NotNotes |
 
 
 ## Catalogue 

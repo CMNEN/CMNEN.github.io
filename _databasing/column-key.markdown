@@ -10,7 +10,7 @@ The Excel template used for specimen databasing contains several columns and is 
 
 During databasing, it is important to capture all information present on labels as accurately as possible. Omitting data that appears on the label can result in an incomplete or inaccurate record. When in doubt about where a piece of information should be entered, please feel free to ask one (or both) of your supervisors!
 
-| Column name | Explanation | Associated Module |
+| Column name | Explanation | Module |
 |--------------|------------|------------|
 | **Catalogue_ID**\* | The unique catalogue ID assigned to each specimen. When databasing, this number must match the catalogue number printed on the catalogue label that will be applied to the specimen. The catalogue ID consists of our **collection code** ("CMNEN") and a unique **catalogue number** (e.g. "00085495"). The catalogue ID allows us to locate individual specimen records and ensures that all associated information is correctly tied to that specimen. Note that you must put a single space in between the colelction code and the catalogue number(e.g. CMNEN 00034151) when completing this field. | Catalogue |
 | **Other_catNumber** | Any combination of letters or numbers that constitutes an additional identifying code associated with the specimen. For example, a specimen that has been sequenced for its mitochondrial barcode will often have the corresponding BOLD process ID on its label (e.g. "MPCAN1899-19"). Another catalogue number that you may encounter on a specimen label is a cryobank catalogue ID (e.g. "NBCC1038896"), indicating that tissue from the specimen has been sampled and is currently (or previously) stored in the cryobank. | Catalogue |
