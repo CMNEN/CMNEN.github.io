@@ -12,13 +12,15 @@ date:   2026-02-24
 
 Our data entry template can be found [here](https://nature365.sharepoint.com/:f:/r/teams/Researchandcollections/Shared%20Documents/Zoology/INVERTS/COLL/INSECTES%20-%20INSECTS/EMu%20-%20DATA%20ENTRY/Blank%20templates?csf=1&web=1&e=0DZwsP) on the R&C SharePoint.
 
-The EMu data entry template is specifically structured to support batch imports across multiple modules (e.g. Catalogue, Collection Events, Sites, Parties, and Taxonomy). Rather than entering records directly into EMu, data are first entered on an Excel data entry sheet (see "Data entry" on the side ribbion), standardized, and finally transformed into import-ready sheets to be imported into EMu.
+The EMu data entry template is specifically structured to support batch imports across multiple modules (e.g. Catalogue, Collection Events, Sites, Parties, and Taxonomy). Rather than entering records directly into EMu, data is first entered on an Excel data entry sheet (see above and "Data entry" on the side ribbion), standardized, chcked against records on EMu, and finally transformed into import-ready sheets to be imported into EMu.
 
-The standardization and preparation phase is handled using an R script. Data from the Excel entry sheet are cleaned and standardized, then checked against existing EMu records to identify matches and retrieve IRNs (Internal Reference Numbers). Any remaining unmatched records are formatted into import-ready sheets, which can then be imported into EMu.
+The standardization and EMu-checking steps are with an R script. Data from the Excel entry sheet is first cleaned and standardized, then checked against existing EMu records to identify matches with existing records to retrieve IRNs (Internal Reference Numbers) of said records. Lastly, any remaining unmatched records are formatted into import-ready sheets, which can then be imported into EMu.
 
-## Parties and Taxonomy 
+## Parties and Taxonomy
 
-Parties (names of the collectors and determiners as entered in the data entry sheet) and taxonomical names must be matched to their respective (existing) records before any Collection Event records or Catalogue records can be imported. 
+Parties (names of the collectors and determiners as entered in the data entry sheet) and taxonomical names must be matched to their respective (existing) records before any Collection Event records or Catalogue records can be imported.
+
+<span style="background-color: #a3d5ff;">Custom highlight test</span>
 
 For Parties, this is done by simply taking the values from the columns "Determiner", "Determiner2", "Determiner3", "Collector1", "Collector2", "Collector3", and "Collector4", comparing them to a report of all party names in EMu that has been properly formatted into the **First intial. Second intial. Last name.** format. All values that are not matched to an existing name are piped into an import sheet to be pushed into EMu. This method of pulling IRNs is not perfect (cases where duplicate names or records of people with the same initials and surname), but works well for Entomology where we often deal with the same "group" of people over thousands of specimens. 
 
@@ -64,7 +66,6 @@ Collection Event records are handled in a very similar way (data are extracted, 
 | Coll_time | ColTimeVisitedFrom | |
 | Coll_time_to | ColTimeVisitedTo | |
 | Event_notes | NotNotes | |
-
 
 ## Catalogue 
 
