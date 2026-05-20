@@ -91,17 +91,17 @@ Collection Event records are handled in a very similar way to Site records (data
 
 | Column name | Field name | Notes |
 |--------------|------------|------------|
-| Collector | ColParticipantRef_tab(1).irn | This is a column that will be populated once parties-related columns are matched to a Site record on EMu / a new Parties record is imported into EMu |
-| Collector2 | ColParticipantRef_tab(2).irn | This is a column that will be populated once parties-related columns are matched to a Site record on EMu / a new Parties record is imported into EMu |
-| Collector3 | ColParticipantRef_tab(3).irn | This is a column that will be populated once parties-related columns are matched to a Site record on EMu / a new Parties record is imported into EMu |
-| Collector4 | ColParticipantRef_tab(4).irn | This is a column that will be populated once parties-related columns are matched to a Site record on EMu / a new Parties record is imported into EMu |
+| Collector | ColParticipantRef_tab(1).irn | |
+| Collector2 | ColParticipantRef_tab(2).irn | |
+| Collector3 | ColParticipantRef_tab(3).irn | |
+| Collector4 | ColParticipantRef_tab(4).irn | |
 | Coll_date | ColDateVisitedFrom | |
 | Coll_date_to | ColDateVisitedTo | |
 | Coll_date_verbatim | ColVerbatimDate | |
 | Coll_time | ColTimeVisitedFrom | |
 | Coll_time_to | ColTimeVisitedTo | |
 | Event_notes | NotNotes | |
-| site_irn | ColSiteRef.irn | This is a column that will be populated once site-related columns are matched to a Site record on EMu / a new Site record is imported into EMu |
+| site_irn | ColSiteRef.irn | |
 
 ## Catalogue 
 
@@ -118,11 +118,11 @@ Once all Parties, Taxonomy, Sites, and Collection Events have been processed, th
 | Collection_code | CatPrefix | |
 | Collection_code | CatCollection | |
 | Specimen_notes | Catalogue_notes | |
-| Determiner | DetDeterminerRef_nesttab(1:1).irn | This is a column that will be populated once parties-related columns are matched to a Site record on EMu / a new Parties record is imported into EMu |
-| Prev_determiner | DetDeterminerRef_nesttab(2:1).irn | This is a column that will be populated once parties-related columns are matched to a Site record on EMu / a new Parties record is imported into EMu |
+| Determiner | DetDeterminerRef_nesttab(1:1).irn | |
+| Prev_determiner | DetDeterminerRef_nesttab(2:1).irn | |
 | Type_status | DetTypeStatus_tab | |
-| DetTaxonRef_tab(1).irn | DetTaaxonRef_tab(1).irn | This is a column that will be populated once Taxonomy-related columns are matched to a Site record on EMu / a new Taxonomy record is imported into EMu |
-| DetTaxonRef_tab(2).irn | DetTaaxonRef_tab(2).irn | This is a column that will be populated once Taxonomy-related columns are matched to a Site record on EMu / a new Taxonomy record is imported into EMu |
+| DetTaxonRef_tab(1).irn | DetTaaxonRef_tab(1).irn | |
+| DetTaxonRef_tab(2).irn | DetTaaxonRef_tab(2).irn | |
 | Name_notes | DetNameNotes_tab(1) | |
 | Prev_name_notes | DetNameNotes_tab(2) | |
 | Det_date | DetDate0(1) | |
@@ -130,4 +130,4 @@ Once all Parties, Taxonomy, Sites, and Collection Events have been processed, th
 | Count | PreTotalSpecimenCount | |
 | Sex | PreSex_tab | |
 | Specimen_nature | PreSpecimenNature_tab | |
-| collevent_irn | ColCollectionEventRef.irn | This is a column that will be populated once Collection Event-related columns are matched to a Collection Event record on EMu / a new Collection Event record is imported into EMu |
+| collevent_irn | ColCollectionEventRef.irn | |
